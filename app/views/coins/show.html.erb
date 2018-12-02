@@ -1,0 +1,26 @@
+<div class="col-md-6 col-md-offset-3">
+	<p id="notice"><%= notice %></p>
+
+	<p>
+	  <strong>Nome:</strong>
+	  <%= @coin.description %>
+	</p>
+
+	<p>
+	  <strong>Sigla:</strong>
+	  <%= @coin.acronym %>
+	</p>
+
+	<p>
+	  <strong>Tipo de Mineração:</strong>
+	  <%= @coin.mining_type.acronym %> - <%= @coin.mining_type.description %>
+	</p>
+
+	  <strong>Imagem:</strong>
+	<p>
+	  <%= image_tag @coin.url_image, size: '50x50', class: 'image-responsive' %>
+	</p>
+
+	<%= link_to 'Editar', edit_coin_path(@coin) %> |
+	<%= link_to 'Voltar', coins_path %>
+</div>
