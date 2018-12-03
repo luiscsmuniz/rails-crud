@@ -16,6 +16,6 @@ module ApplicationHelper
 	end
 
 	def site_name
-		"Cripto Wallet"
+		"Cripto Wallet - Ruby"
 	end
 end
