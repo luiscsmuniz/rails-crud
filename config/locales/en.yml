@@ -40,3 +40,9 @@ en:
     delete: "Delete"
     new: "New"
     back: "Back"
+
+  text-site:
+    home:
+      welcome: "Welcome"
+      date: Date
+      env: "Environment"

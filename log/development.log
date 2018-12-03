@@ -10075,3 +10075,481 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 230ms (Views: 213.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:07:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 195ms (Views: 176.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:10:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (243.9ms)
+Completed 500 Internal Server Error in 312ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `text_site' for #<#<Class:0x00007f583824c218>:0x00007f5838246778>
+Did you mean?  text_field):
+    1: <div class="col-md-12">
+    2: 	<h1><%=t(text_site.welcome)%></h1>
+    3: 	<ul>
+    4: 		<li><%= link_to 'English', root_path(:locale => 'en')%></li>
+    5:         <li><%= link_to 'Português Brasileiro', root_path(:locale => 'pt-BR')%></li>
+  
+app/views/welcome/index.html.erb:2:in `_app_views_welcome_index_html_erb___3015033956062799277_70008437892440'
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:12:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (329.8ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 547ms (Views: 527.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:12:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.8ms)
+Completed 200 OK in 166ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:12:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 199ms (Views: 179.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:12:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered welcome/_menu.html.erb (0.5ms)
+Completed 200 OK in 219ms (Views: 202.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:12:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 196ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:12:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 174ms (Views: 163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:14:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (122.5ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 308ms (Views: 294.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:15:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 191ms (Views: 176.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:15:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+  Rendered welcome/_menu.html.erb (0.8ms)
+Completed 200 OK in 161ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:15:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 198ms (Views: 172.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:15:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:15:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 262ms (Views: 235.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:15:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 223ms (Views: 207.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:15:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 272ms (Views: 248.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:15:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (1.1ms)
+Completed 200 OK in 180ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:15:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered welcome/_menu.html.erb (0.8ms)
+Completed 200 OK in 211ms (Views: 196.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:16:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 188ms (Views: 172.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:16:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 187ms (Views: 167.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:16:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+  Rendered welcome/_menu.html.erb (0.5ms)
+Completed 200 OK in 158ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:16:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 189ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:17:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (151.4ms)
+  Rendered welcome/_menu.html.erb (2.0ms)
+Completed 200 OK in 371ms (Views: 349.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:17:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (131.5ms)
+  Rendered welcome/_menu.html.erb (1.0ms)
+Completed 200 OK in 344ms (Views: 325.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:17:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 159ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:17:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 247ms (Views: 221.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:17:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 177ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:17:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 195ms (Views: 177.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:17:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 166ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:17:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 184ms (Views: 164.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 227ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 179ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:18:35 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 187ms (Views: 167.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:18:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 191ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 154ms (Views: 138.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 174ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 166ms (Views: 153.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 165ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:18:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 187ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:18:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:18:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 263ms (Views: 243.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 271ms (Views: 248.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (5.8ms)
+Completed 200 OK in 171ms (Views: 157.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:18:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 193ms (Views: 174.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 186ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2018-12-03 06:18:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered welcome/_menu.html.erb (0.7ms)
+Completed 200 OK in 260ms (Views: 238.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-12-03 06:18:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 252ms (Views: 228.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?locale=pt-BR" for 10.0.2.2 at 2018-12-03 06:18:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered welcome/_menu.html.erb (0.6ms)
+Completed 200 OK in 161ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+

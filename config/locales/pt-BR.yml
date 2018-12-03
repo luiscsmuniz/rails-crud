@@ -7,3 +7,9 @@ pt-BR:
     delete: "Excluir"
     new: "Novo"
     back: "Voltar"
+
+  text-site:
+    home:
+      welcome: "Seja bem vindo!"
+      date: Data
+      env: Ambiente
