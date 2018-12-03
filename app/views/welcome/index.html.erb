@@ -1,8 +1,11 @@
 <div class="col-md-12">
 	<h1>Seja bem Vindo</h1>
-	<p>Idioma: <%= locale(I18n.locale)%></p>
-	<p>A data de hoje é <%= Date.today %></p>
+	<ul>
+		<li><%= link_to 'English', root_path(:locale => 'en')%></li>
+        <li><%= link_to 'Português Brasileiro', root_path(:locale => 'pt-BR')%></li>
+	</ul></p>
+	<p>A data de hoje é <%= l(Date.today) %></p>
 
-	<p>Estamos no ambiente de <strong><%= env_rails %></strong>	</p>
+	<p>Estamos no ambiente de <strong><%= env_rails %> - <%= t('hello')%></strong>	</p>
 	<p>Variavel de sessao: <%=@nome%></p>
 </div>

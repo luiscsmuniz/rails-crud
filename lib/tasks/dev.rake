@@ -2,6 +2,7 @@ namespace :dev do
   desc "Configura o ambiente de desenvolvimento"
   task setup: :environment do
   	if Rails.env.development?
+      show_spinner('Instalando gems...') {%x(bundle)}
   		show_spinner('Drop database...') {%x(rails db:drop)}
   		show_spinner('Create database...') {%x(rails db:create)}
   		show_spinner('Migrate database') {%x(rails db:migrate)}
