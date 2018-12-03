@@ -15,14 +15,6 @@ module ApplicationHelper
 		end
 	end
 
-	def locale
-		if I18n.locale == :en
-			'Inglês'
-		else
-			'Português'
-		end
-	end
-
 	def site_name
 		"Cripto Wallet"
 	end
