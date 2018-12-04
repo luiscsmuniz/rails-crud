@@ -46,3 +46,8 @@ en:
       welcome: "Welcome"
       date: Date
       env: "Environment"
+
+    menu:
+      coin: Coin
+      mining-type: Mining Type
+      home: Home

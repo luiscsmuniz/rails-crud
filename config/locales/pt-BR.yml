@@ -13,3 +13,8 @@ pt-BR:
       welcome: "Seja bem vindo!"
       date: Data
       env: Ambiente
+
+    menu:
+      coin: Moeda
+      mining-type: Tipos de Mineração
+      home: Página Inicial

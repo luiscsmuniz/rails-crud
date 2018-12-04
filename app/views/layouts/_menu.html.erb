@@ -7,14 +7,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="<%= root_path %>"><%= site_name %></a>
+      <a class="navbar-brand" href="<%= root_path %>">
+      <%= image_tag "logo.png", width: 100 %></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "Moedas", coins_path %></li>
-        <li><%= link_to "Tipos de Mineração", mining_types_path %></li>
+        <li><%= link_to t('text-site.menu.home'), root_path %></li>
+        <li><%= link_to t('text-site.menu.coin'), coins_path %></li>
+        <li><%= link_to t('text-site.menu.mining-type'), mining_types_path %></li>
       </ul>
     </div>
   </div>
 </nav>
+
