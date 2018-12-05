@@ -40,6 +40,8 @@ en:
     delete: "Delete"
     new: "New"
     back: "Back"
+    confirm: 'Are you sure?'
+    send: Send
 
   text-site:
     home:

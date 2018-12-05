@@ -12,16 +12,17 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :description %>
-    <%= form.text_field :description %>
+    <%= form.label :description %>:
+    <%= form.text_field :description, class: 'form-control' %>
   </div>
 
   <div class="field">
-    <%= form.label :acronym %>
-    <%= form.text_field :acronym %>
+    <%= form.label :acronym %>:
+    <%= form.text_field :acronym, class: 'form-control' %>
   </div>
+  <br>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit t('links.send'), class: 'btn btn-primary' %>
   </div>
 <% end %>
