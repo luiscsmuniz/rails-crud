@@ -1,7 +1,7 @@
 <div class="col-md-12">
   <p id="notice"><%= notice %></p>
 
-  <h1>Cripto Moedas</h1>
+  <h1><%=@coins.model_name.human(count: @coins)%></h1>
   <h3><small> <%=cookies[:curso]%></small></small></h3>
 
   <div class="table-responsive">

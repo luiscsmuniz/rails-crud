@@ -1,5 +1,14 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luiscsouzamuniz/rails-crud.git",
+  "author": "luiscsouzamuniz <luisc.souzamuniz@gmail.com>",
+  "license": "MIT"
 }
