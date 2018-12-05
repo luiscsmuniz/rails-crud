@@ -10,5 +10,8 @@
   "main": "index.js",
   "repository": "https://github.com/luiscsouzamuniz/rails-crud.git",
   "author": "luiscsouzamuniz <luisc.souzamuniz@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
 }
