@@ -42,6 +42,7 @@ en:
     back: "Back"
     confirm: 'Are you sure?'
     send: Send
+    select: Select
 
   text-site:
     home:
