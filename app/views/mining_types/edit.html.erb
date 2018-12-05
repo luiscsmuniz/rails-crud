@@ -2,8 +2,9 @@
 	<h1><%= t('links.edit')%></h1>
 
 	<%= render 'form', mining_type: @mining_type %>
-
-	<%= link_to t('links.show'), @mining_type %> |
-	<%= link_to t('links.back'), mining_types_path %>
+<br>
+	<%= link_to t('links.show'), @mining_type, class: 'btn btn-primary' %> 
+	<%= link_to t('links.delete'), @mining_type, method: :delete, data: { confirm: t('links.confirm') }, class: 'btn btn-danger' %>
+	<%= link_to t('links.back'), mining_types_path, class: 'btn btn-primary' %>
 
 </div>
